@@ -1,0 +1,14 @@
+use test;
+db.createCollection("emp");
+
+db.emp.insert({_id:100,"name":"Raju","address":"Noida","salary":30000})
+db.emp.insert({_id:101,"name":"Karan","address":"Delhi","salary":80000})
+db.emp.insert({_id:102,"name":"Arjun","address":"Delhi","salary":70000})
+db.emp.insert({_id:103,"name":"Kejrilal","address":"Delhi","salary":40000})
+db.emp.insert({_id:104,"name":"Arun","address":"Hyderabad","salary":40000})
+db.emp.insert({_id:105,"name":"Pavan","address":"Hyderabad","salary":60000})
+db.emp.insert({_id:106,"name":"Preetam","address":"Chennai","salary":50000})
+db.emp.insert({_id:107,"name":"Mouli","address":"Bangalore","salary":55000})
+db.emp.insert({_id:108,"name":"Gajodhar","address":"Noida","salary":30000})
+db.emp.insert({_id:109,"name":"Panikar","address":"Pune","salary":40000})
+

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springdb?useSSL=false
+    username: root
+    password: root
+ #   type: org.springframework.jdbc.datasource.DriverManagerDataSource
+    name: myds
+    
+debug: true

@@ -1,0 +1,11 @@
+server:
+  port: 8181
+  
+spring:
+  profiles:
+    active:
+    - demo
+    - test
+    
+  application:
+    name: demo-app2
